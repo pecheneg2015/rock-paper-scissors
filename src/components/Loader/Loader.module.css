@@ -1,0 +1,13 @@
+@keyframes loader-rotate {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.loader {
+    @apply w-12 h-12 border-4 border-[#FF8D3D]/75 rounded-full;
+    border-right-color: transparent;
+    animation: loader-rotate 1s linear infinite;
+}

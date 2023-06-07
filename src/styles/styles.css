@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html,body,#root{
+    @apply w-full h-full font-sans-serif;
+
+}
+
+#root{
+    @apply  bg-gradient-to-bl from-[#F9C2A2]/25 via-[#FFE9D1] to-[#F9C2A2]/25 overflow-y-auto;
+
+}
+
+.page{
+    @apply w-full h-full min-h-full
+}
+
+
+.center{
+    @apply flex items-center justify-center
+}
+
+.pagePadding{
+    @apply  px-10 py-16
+}
